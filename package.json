@@ -5,7 +5,9 @@
   "tagline": "It's like ordinary markdown except it drops its pants for attention.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -36,9 +38,11 @@
     "lodash": "^2.4.1",
     "marked": "^0.3.2",
     "sanitize-html": "^1.4.3",
-    "similarity": "^1.0.1"
+    "similarity": "^1.0.1",
+    "snyk": "^1.25.0"
   },
   "devDependencies": {
     "mocha": "^2.0.1"
-  }
+  },
+  "snyk": true
 }
