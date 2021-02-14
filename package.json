@@ -35,7 +35,7 @@
     "html-frontmatter": "^1.2.1",
     "lodash": "^2.4.1",
     "marked": "^0.3.2",
-    "sanitize-html": "^1.4.3",
+    "sanitize-html": "^2.3.2",
     "similarity": "^1.0.1"
   },
   "devDependencies": {
